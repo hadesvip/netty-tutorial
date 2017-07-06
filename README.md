@@ -13,6 +13,11 @@ netty 能做什么？
 * socket 服务器
 
 
+* protobuf
+1. 生成java文件命令
+  *  protoc -I=src/protobuf   --java_out=src/main/java  src/protobuf/addressbook.proto
+
+
 
 
 

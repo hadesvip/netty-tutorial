@@ -1,0 +1,12 @@
+syntax = "proto2";
+package com.netty.proto;
+
+option optimize_for = SPEED;
+option java_package = "com.netty.domain.proto";
+option java_outer_classname = "AddressBook";
+
+message Person {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+}
